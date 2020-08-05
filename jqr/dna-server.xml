@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dna>
+  <datasources>
+    <datasource name="glzccs" location="jdbc:oracle:thin:@200.200.201.218:1521:orcl" user="glzccs" password="OBF:xcbI2eH5yHo=" login-timeout-ms="10000" command-timeout-ms="0" max-connections="200" min-connections="5" idle-life-ms="10000" />
+  </datasources>
+  <http>
+    <listen port="7010" max-threads="150" />
+  </http>
+</dna>
+
